@@ -7,7 +7,11 @@ var foodEmojiObject = {
   "🥪": "sandwich",
   "🍱": "bento-box",
   "🍩": "doughnut",
-  "🍪": "cookie"
+  "🍪": "cookie",
+  "🍕": "pizza",
+  "🧆": "falafel",
+  "🍝": "spaghetti",
+  "🧁": "cupcake"
 };
 
 var emojisWeHave = Object.keys(foodEmojiObject);
