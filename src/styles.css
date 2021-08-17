@@ -1,4 +1,11 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  font-size: 30px;
+  height: 600px;
+  background-color: aqua;
+}
+
+.printed-text {
+  padding: 1rem 2rem;
 }
