@@ -37,10 +37,24 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Fun with Food Emoji</h1>
-      <input placeholder="enter a food emoji" onChange={onChangeHandler} />
-      <h3 style={{ color: "blue" }}>{foodEmoji}</h3>
-      <h2>Emojies in our database</h2>
+      <div className="printed-text">Fun with Food Emoji</div>
+      <input
+        style={{
+          cursor: "pointer",
+          backgroundColor: "#fb923c",
+          background: "#E5E7EB",
+          borderRadius: "0.5rem",
+          padding: "0.5rem  1rem",
+          border: "1px solid black",
+          margin: "1rem 0.3rem"
+        }}
+        placeholder="enter a food emoji"
+        onChange={onChangeHandler}
+      />
+      <div className="printed-text" style={{ color: "blue" }}>
+        {foodEmoji}
+      </div>
+      <div className="printed-text">Emojies in our database</div>
       {emojisWeHave.map(function (emoji) {
         return (
           <span
